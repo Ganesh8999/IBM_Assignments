@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> highlight bold words in paragraph</title>
+</head>
+<body>
+
+	<!--  button for highlighting the text -->
+	<button onclick="highlightBoldText();">Do you want to highlight bold Click  the button</button>
+
+	<p>Lorem <b>ipsum dolor sit amet, consectetur adipisicing elit,</b> sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.<b> Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur.</b> Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+
+
+	<script type="text/javascript">
+		
+		// varible for bold items
+		var bold_items;
+
+		function highlightBoldText(){
+
+			// collect all bold tags in array by using getElementsByTagName()
+			bold_items = document.getElementsByTagName('b');
+
+
+			// iterate through the array 
+			for (var i = 0; i < bold_items.length; i++) {
+
+				// change the style where bold tag elements found
+				bold_items[i].style.color = "yellow";
+
+
+			}
+
+
+		}
+
+	</script>
+
+</body>
+</html>

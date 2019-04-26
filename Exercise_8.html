@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>not repeating character</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		function find_FirstNotRepeatedChar(str) {
+      // spilt the string  so that every character will split
+      var arra1 = str.split('');
+      var result = '';
+
+      // initialize counter
+      var ctr = 0;
+
+      // iteration for checking duplicate elements 
+      for (var x = 0; x < arra1.length; x++) {
+        ctr = 0;
+
+        for (var y = 0; y < arra1.length; y++) 
+        {
+          if (arra1[x] === arra1[y]) {
+            ctr+= 1;
+          }
+        }
+
+        // remove 
+        if (ctr < 2) {
+          result = arra1[x];
+          break;
+        }
+      }
+      return result;
+    }
+
+    var char = find_FirstNotRepeatedChar(prompt("enter the string"));
+    alert("Not repeating character is "+ char);
+
+
+  </script>
+
+</body>
+</html>
