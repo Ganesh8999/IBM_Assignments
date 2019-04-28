@@ -8,24 +8,18 @@
 	<script type="text/javascript">
 
 		// take  input
-      var string = prompt("enter the string");
+     		 var string = prompt("enter the string");
 
-      // take index number
-      var index = prompt("enter the index");
+     		 // take index number
+     		 var index = prompt("enter the index");
 
-      
+      		function checkUpperCaseOrNot(string, index){
 
-      function checkUpperCaseOrNot(string, index){
+         	// compare string by using method and using index
+      		return string.charAt(index).toUpperCase(index) === string.charAt(index); 
+      		}
 
-         
-
-         // compare string by using method and using index
-      	return string.charAt(index).toUpperCase(index) === string.charAt(index); 
-      }
-
-      alert( checkUpperCaseOrNot(string,index));
-
-
+     		 alert( checkUpperCaseOrNot(string,index));
 	</script>
 
 </body>
