@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>check first string matched or not</title>
+</head>
+<body>
+
+
+	<script type="text/javascript">
+
+		// take input string
+		var string = prompt("Enter the string ");
+
+
+		// get input for the first string
+		var firstString = prompt("enter the first string");
+
+		checkFirstString(string,firstString);
+
+		function checkFirstString(string, firstString){
+
+			// split the string by placing spaces 
+			var splittedString = string.split(" ");
+
+			// compare first string which is at index zero with user given string
+			if(splittedString[0] === firstString){
+
+				alert(" yes first string matched !! ");
+
+			}else{
+
+				alert(" sorry first string is not matched ");
+			}
+
+
+
+
+		}
+
+
+	</script>
+
+</body>
+</html>
