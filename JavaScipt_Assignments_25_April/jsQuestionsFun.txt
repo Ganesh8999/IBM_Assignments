@@ -1,22 +1,17 @@
-
+# Note( Exercise Sequence match with these questions.)
 1. A program takes a random integer between 1 to 10, the user is then prompted to input a guess number. 
-    If the user input matches with guess number, the program will display a message "Right On!" otherwise display a message "Unlucky :(". 
-
+    If the user input matches with guess number, the program will display a message "Right On!" 
+    otherwise display a message "Unlucky" . 
 
 2. Write a JavaScript program to converts a specified number to an array of digits. 
-
 
 3. Write a JavaScript function that returns a passed string with letters in alphabetical order.
 
 4. Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.
 
-
-
 5. Write a JavaScript function that accepts a string as a parameter and find the longest word within the string.
 
 6. Write a JavaScript function which accepts an argument and returns the type of that argument.
-
-
 
 7. Write a JavaScript function to count the occurrence of a substring in a string.
 
@@ -29,10 +24,8 @@
 
 11. Write a JavaScript function to find a word and number of it's occurances within a string. 
 
-
 12. Write a JavaScript program to display the current day and time in the following format.  Go to the editor
-Today : Friday. 
-Time is : 3 AM : 45 : 21 
+Today : Friday. Time is : 3 AM : 45 : 21 
 
 13. Write a JavaScript function to test whether the character at the provided (character) index is upper case or not
 14. 
