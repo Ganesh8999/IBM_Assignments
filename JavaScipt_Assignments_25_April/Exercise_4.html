@@ -9,37 +9,26 @@
 		
 		function capitalizeFirstLetter(str){
     
-          // convert string to lowercase and split by using space
-          var str = str.toLowerCase().split(' ')
+        		  // convert string to lowercase and split by using space
+         		   var str = str.toLowerCase().split(' ')
 
+          		   //iterate through the length of string
+          		 for (var i = 0; i < str.length; i++) {
+           			 // string at zero index make it uppercase and conacat upcoming string from index 1
+           			  str[i] = str[i].charAt(0).toUpperCase() + str[i].substring(1);
+         		  }
 
-          //iterate through the length of string
-           for (var i = 0; i < str.length; i++) {
+           			//  return final string after applying join method
+          			 return str.join(' ')
 
+       		 }
 
-            // string at zero index make it uppercase and conacat upcoming string from index 1
-           	str[i] = str[i].charAt(0).toUpperCase() + str[i].substring(1);
-           }
-
-           //  return final string after applying join method
-           return str.join(' ')
-
-        }
-
-      // take input 
+     			 // take input 
       
-      var string = prompt("Enter a string ",);
-      var capitalFormat =   capitalizeFirstLetter(string);
+     			 var string = prompt("Enter a string ",);
+      			 var capitalFormat =   capitalizeFirstLetter(string);
 
-        
-
-        alert(capitalFormat);
-
-
-
-
-
-
+       		 alert(capitalFormat);
 	</script>
 
 </body>
