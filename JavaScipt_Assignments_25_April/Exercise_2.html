@@ -5,14 +5,12 @@
 </head>
 <body>
 	<script type="text/javascript">
-		
+	
+		var n = prompt("enter digit",);
 
-var n = prompt("enter digit",);
+		var arr = ('' + n).split('').map(function(digit)  {return +digit;});
 
-var arr = ('' + n).split('').map(function(digit)  {return +digit;});
-
-alert("[ "+arr+ " ]");
-
+		alert("[ "+arr+ " ]");
 
 	</script>
 
