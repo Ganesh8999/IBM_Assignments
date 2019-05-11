@@ -29,15 +29,21 @@ class SubStringWithTwoParameter{
 	}
 
 	public void subString(int start,int end){
+		
+		for (int i = start; i < end; i++) {
+
+			System.out.print(string.charAt(i));
+			
+	       }
 
 		
-		for (int i = start; i < string.length(); i++) {
+	//	for (int i = start; i < string.length(); i++) {
 
-			if(i < end)
-				System.out.print(string.charAt(i));
+	//		 if(i < end)
+	//			System.out.print(string.charAt(i));
 			
 			
-		}
+	//	}
 
 		
 
